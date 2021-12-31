@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ProgramsTemplate</title>
+    <link rel="shortcut icon" type="image/png" href="pictures/PSIcon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+</head>
+
+<body>
+    <div>
+        <main class="page-content">
+            
+            <!-- Header -->
+            <div class="header">
+                <a href="index.html" class="logo">ProgramsTemplate</a>
+                <div class="header-right">
+                	<a href="c/c-programs.html">C</a>
+                    <a href="cpp/cpp-programs.html">C++</a>
+                    <a href="java/java-programs.html">Java</a>
+                    <a href="python/python-programs.html">Python</a>
+                    <a href="about-us.html">About</a>
+                </div>
+            </div>
+
+            <div class="container-fluid" id="ad-section1">
+                
+            </div>
+
+            <!-- Content -->
+            <div class="row">
+            	<div class="col-sm-12" id="site-description">
+            		
+                	<h1>ProgramsTemplate : The Best Place To Learn Programming Logic</h1><br>
+
+                	<p>ProgramsTemplate offers programming samples of code for problems, specially in four languages C, C++, Java and Python.</p>
+                	<p>For more programming samples, stay tuned. W'll upload more programming samples in C#, PHP and Kotlin as well very soon.</p>
+                	<p>Just for now, go through C, C++, Java and Python.</p><br>
+                	
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-6">
+      
+                                <div class="menubox">
+                                    
+                                    <div id="title-info">
+                                        <h2>C</h2>
+                                        <h5>C is a general-purpose, procedural computer programming language</h5>
+                                        <a class="btn btn-outline-light btn-lg" href="c/c-programs.html">C Programs</a>
+                                    </div>
+                                </div>
+                                <hr class="d-sm-none">
+                            </div>
+    
+                            <div class="col-sm-6">
+                                <div class="menubox">
+                                    
+                                    <div id="title-info">
+                                        <h2>C++</h2>
+                                        <h5>C++ is a general-purpose, procedural, object oriented programming language</h5>
+                                        <a class="btn btn-outline-light btn-lg" href="cpp/cpp-programs.html">C++ Programs</a>
+                                    </div>
+                                </div>
+                                <hr class="d-sm-none">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="menubox">
+                                    
+                                    <div id="title-info">
+                                        <h2>Java</h2>
+                                        <h5>Java is a general-purpose, object oriented programming language</h5>
+                                        <a class="btn btn-outline-light btn-lg" href="java/java-programs.html">Java Programs</a>
+                                    </div>
+                                </div>
+                                
+                                <hr class="d-sm-none">
+                            </div>
+    
+                            <div class="col-sm-6">
+                                <div class="menubox">
+                                    
+                                    <div id="title-info">
+                                        <h2>Python</h2>
+                                        <h5>Python is general-purpose, interpreted programming language</h5>
+                                        <a class="btn btn-outline-light btn-lg" href="python/python-programs.html">Python Programs</a>
+                                    </div>
+                                </div>
+                                <hr class="d-sm-none">
+                            </div>
+                        </div>
+                    </div>
+
+            	</div>
+            </div>
+
+            <div class="container-fluid" id="ad-section3" >
+                
+            </div>
+            
+            <!-- Footer -->
+            <div class="page-footer font-small">
+                <div class="container">
+                    <div class="row text-center d-flex justify-content-center pt-4 mb-3">
+                        
+                        <div class="col-md-3">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="c/c-programs.html">C</a>
+                            </h6>
+                        </div>
+                        <div class="col-md-3">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="cpp/cpp-programs.html">C++</a>
+                            </h6>
+                        </div>
+                        <div class="col-md-3">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="java/java-programs.html">Java</a>
+                            </h6>
+                        </div>
+                        <div class="col-md-3">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="python/python-programs.html">Python</a>
+                            </h6>
+                        </div>                      
+
+                    </div>
+    
+                </div>
+
+                <div class="footer-copyright text-center py-3">
+                	© Copyright 2019. All Rights Reserved.
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Script -->
+    <script type="text/javascript">
+    
+            $(".sidebar-dropdown > a").click(function() 
+            {
+                $(".sidebar-submenu").slideUp(200);
+                if ( $(this).parent().hasClass("active")) 
+                {
+                    $(".sidebar-dropdown").removeClass("active");
+                    $(this).parent().removeClass("active");
+                } 
+                else 
+                {
+                    $(".sidebar-dropdown").removeClass("active");
+                    $(this).next(".sidebar-submenu").slideDown(200);
+                    $(this).parent().addClass("active");
+                }
+            });
+
+            $("#close-sidebar").click(function() 
+            {
+                $(".page-wrapper").removeClass("toggled");
+            });
+
+            $("#show-sidebar").click(function() 
+            {
+                $(".page-wrapper").addClass("toggled");
+            });
+
+    </script>
+
+</body>
+</html>
